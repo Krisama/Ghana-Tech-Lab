@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Form Assignment</title>
+<style>
+    body{
+        background-color: brown;
+        width: 80%;
+        margin:auto;
+    }
+    h2{
+        font-size:16px ;
+        text-align: center ;
+        color: cyan;
+    }
+    section{
+        color: coral;
+    }
+    .container{
+    border: radius 10px;
+    }
+    input[type=text] ,textarea{
+        width: 100%;
+        margin-left: auto;
+        margin-right:auto;
+        border-color: burlywood;
+        text-align: center;
+    }
+    input[type=submit]{
+        color:darkgreen
+    }
+    input[type=submit], hover{
+        color:rebeccapurple;
+        font-style: italic;
+    }
+    textarea{
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-top: 12px;
+        box-sizing: content-box;
+        width: 60%;
+    }
+    label{
+        color: darkmagenta;
+    }
+</style>
+</head>
+<body>
+    <h2>Ghana Tech Lab Contact Form Assignment</h2>
+<section>
+    <div class="container">
+<form>
+    <label="fname">First name:</label><br>
+    <input type="text" id="fname" name="first name" placeholder="Your first name.."><br>
+    <label="lname">Last name:</label><br>
+    <input type="text" id="lname" name="last name" placeholder="Your last name.."><br>
+    <label="country">Country</label><br>
+    <input type="text" id="cname" name="country" value="Nigeria"><br>
+    <label="sub">Subject</label><br>
+    <textarea type="text" id="sub" name="subject" placeholder="write something..." rows="8" cols="80"></textarea><br>
+    <input type="submit" value="Submit Form">
+    </div>      
+</form>  
+</section>
+</body>
+</html>
